@@ -4,8 +4,15 @@ Build:
  rm -rf build/
  mkdir -p build
  cd build
+
+Configuration and generation:
  cmake -S.. -B.
  cmake --build .
+
+install:
+ cmake --install . --prefix ./install
+
+ 
 
 Create local repo:
 
